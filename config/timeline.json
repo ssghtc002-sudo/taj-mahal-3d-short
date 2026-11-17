@@ -1,0 +1,222 @@
+{
+  "title": "HOW THEY BUILT THE TAJ MAHAL",
+  "hookBadge": "AGRA 1632 • 73 METERS",
+  "hookEmoji": "🕌",
+  "duration": 30.0,
+  "fps": 30,
+  "totalFrames": 900,
+  "resolution": {
+    "width": 1080,
+    "height": 1920
+  },
+  "audio": {
+    "sampleRate": 44100,
+    "channels": 2,
+    "masterPath": "audio/output/master_audio.wav",
+    "manifestPath": "audio/output/voice_manifest.json",
+    "srtPath": "output/subtitles.srt",
+    "loudnessLufs": -14.0,
+    "truePeakCeilingDbfs": -1.0
+  },
+  "speakers": {
+    "narrator": {
+      "label": "NARRATOR",
+      "voice": "am_puck",
+      "lang": "en-us",
+      "speed": 1.12,
+      "color": "#FFD93D",
+      "pan": 0.0
+    },
+    "architect": {
+      "label": "ROYAL ARCHITECT",
+      "voice": "bm_lewis",
+      "lang": "en-gb",
+      "speed": 1.08,
+      "color": "#5CE1E6",
+      "pan": -0.14
+    },
+    "inspector": {
+      "label": "ROYAL SKEPTIC",
+      "voice": "am_fenrir",
+      "lang": "en-us",
+      "speed": 1.15,
+      "color": "#FF6B6B",
+      "pan": 0.14
+    }
+  },
+  "worldContract": {
+    "plazaFloorY": 0.0,
+    "monumentOrigin": [0.45, 0.0, -0.65],
+    "plinthTopY": 0.42,
+    "mainDeckY": 0.42,
+    "terraceY": 1.56,
+    "domeApexY": 4.95,
+    "finialTipY": 5.85,
+    "easelPos": [-0.18, 0.0, 1.38],
+    "pitCenter": [0.45, 0.0, -0.65],
+    "pitDepth": -1.35,
+    "architectScale": 1.46,
+    "inspectorScale": 1.42
+  },
+  "beats": [
+    {
+      "id": "beat_1_mud_hook",
+      "start": 0.0,
+      "end": 3.5,
+      "shot": "yamuna_blueprint_hook",
+      "mood": "golden_dawn_hook",
+      "summary": "1632 Yamuna muddy riverbank pitch: Architect unveils holographic Taj marble model while Skeptic gasps."
+    },
+    {
+      "id": "beat_2_river_wells",
+      "start": 3.5,
+      "end": 8.2,
+      "shot": "river_wells_foundation",
+      "mood": "river_engineering_reveal",
+      "summary": "Skeptic splashes mud, then deep cutaway exposes brick wells locked with wet sal-wood piers under river water."
+    },
+    {
+      "id": "beat_3_marble_dome",
+      "start": 8.2,
+      "end": 15.0,
+      "shot": "ramp_dome_montage",
+      "mood": "heroic_construction",
+      "summary": "Giant spiral ramp & pulley cranes lift white Makrana marble tiers before dropping the lotus onion dome & golden finial."
+    },
+    {
+      "id": "beat_4_leaning_minarets",
+      "start": 15.0,
+      "end": 20.8,
+      "shot": "leaning_minarets_twist",
+      "mood": "seismic_twist",
+      "summary": "Skeptic panics at crooked outer towers; Architect triggers quake shockwave proving the 2-degree outward tilt saves the dome."
+    },
+    {
+      "id": "beat_5_moonlight_glow",
+      "start": 20.8,
+      "end": 25.8,
+      "shot": "sunset_moonlight_glow",
+      "mood": "sunset_to_moonlight",
+      "summary": "Agra sunset melts into glowing moonlight across inlaid marble; Skeptic drops jaw and snaps on starlight shades."
+    },
+    {
+      "id": "beat_6_charbagh_finale",
+      "start": 25.8,
+      "end": 30.0,
+      "shot": "charbagh_reflection_finale",
+      "mood": "moonlight_hero_finale",
+      "summary": "Mirrored Charbagh reflection pool, shimmering lanterns & petals frame the 73m Taj and cheering duo."
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "line_01",
+      "beatId": "beat_1_mud_hook",
+      "speaker": "narrator",
+      "start": 0.22,
+      "end": 2.18,
+      "text": "1632! Build a marble wonder on MUD?!"
+    },
+    {
+      "id": "line_02",
+      "beatId": "beat_1_mud_hook",
+      "speaker": "inspector",
+      "start": 2.24,
+      "end": 3.42,
+      "text": "Wait—won't it sink?!"
+    },
+    {
+      "id": "line_03",
+      "beatId": "beat_2_river_wells",
+      "speaker": "inspector",
+      "start": 3.65,
+      "end": 5.45,
+      "text": "Even my elephant sinks in this mud!"
+    },
+    {
+      "id": "line_04",
+      "beatId": "beat_2_river_wells",
+      "speaker": "architect",
+      "start": 5.55,
+      "end": 8.05,
+      "text": "We sink brick wells—river water turns timber stone-hard!"
+    },
+    {
+      "id": "line_05",
+      "beatId": "beat_3_marble_dome",
+      "speaker": "narrator",
+      "start": 8.42,
+      "end": 11.20,
+      "text": "Fifteen-mile spiral ramps haul gleaming white marble skyward!"
+    },
+    {
+      "id": "line_06",
+      "beatId": "beat_3_marble_dome",
+      "speaker": "architect",
+      "start": 11.38,
+      "end": 14.78,
+      "text": "Now crown the lotus dome with solid golden spires!"
+    },
+    {
+      "id": "line_07",
+      "beatId": "beat_4_leaning_minarets",
+      "speaker": "inspector",
+      "start": 15.22,
+      "end": 17.45,
+      "text": "Boss! Those four towers lean OUTWARD!"
+    },
+    {
+      "id": "line_08",
+      "beatId": "beat_4_leaning_minarets",
+      "speaker": "architect",
+      "start": 17.60,
+      "end": 20.65,
+      "text": "Built that way! In quakes, they fall AWAY from the dome!"
+    },
+    {
+      "id": "line_09",
+      "beatId": "beat_5_moonlight_glow",
+      "speaker": "narrator",
+      "start": 21.02,
+      "end": 23.22,
+      "text": "Sunset paints it gold—then moonlight makes it glow!"
+    },
+    {
+      "id": "line_10",
+      "beatId": "beat_5_moonlight_glow",
+      "speaker": "inspector",
+      "start": 23.35,
+      "end": 25.60,
+      "text": "Pure Mughal genius... take all my gold!"
+    },
+    {
+      "id": "line_11",
+      "beatId": "beat_6_charbagh_finale",
+      "speaker": "narrator",
+      "start": 25.92,
+      "end": 29.70,
+      "text": "Four centuries strong on river wood! Subscribe for the next wonder!"
+    }
+  ],
+  "sfxEvents": [
+    { "id": "sfx_01", "time": 0.14, "type": "vine_boom", "gain": 0.85, "pan": 0.0 },
+    { "id": "sfx_02", "time": 1.85, "type": "whoosh", "gain": 0.55, "pan": -0.2 },
+    { "id": "sfx_03", "time": 2.30, "type": "boing", "gain": 0.72, "pan": 0.25 },
+    { "id": "sfx_04", "time": 3.72, "type": "splash_mud", "gain": 0.80, "pan": 0.2 },
+    { "id": "sfx_05", "time": 5.80, "type": "pile_slam", "gain": 0.90, "pan": -0.1 },
+    { "id": "sfx_06", "time": 6.45, "type": "pile_slam", "gain": 0.86, "pan": 0.1 },
+    { "id": "sfx_07", "time": 7.35, "type": "chisel_chime", "gain": 0.65, "pan": 0.0 },
+    { "id": "sfx_08", "time": 8.30, "type": "whoosh", "gain": 0.65, "pan": 0.0 },
+    { "id": "sfx_09", "time": 9.40, "type": "pulley_ratchet", "gain": 0.62, "pan": -0.25 },
+    { "id": "sfx_10", "time": 11.20, "type": "clank_marble", "gain": 0.78, "pan": 0.0 },
+    { "id": "sfx_11", "time": 13.10, "type": "hydraulic_charge", "gain": 0.68, "pan": 0.0 },
+    { "id": "sfx_12", "time": 14.15, "type": "sonic_boom", "gain": 0.92, "pan": 0.0 },
+    { "id": "sfx_13", "time": 15.18, "type": "record_scratch", "gain": 0.76, "pan": 0.2 },
+    { "id": "sfx_14", "time": 17.85, "type": "quake_rumble", "gain": 0.88, "pan": 0.0 },
+    { "id": "sfx_15", "time": 19.20, "type": "wind_shred", "gain": 0.64, "pan": -0.2 },
+    { "id": "sfx_16", "time": 21.10, "type": "sparkle_sweep", "gain": 0.62, "pan": 0.0 },
+    { "id": "sfx_17", "time": 22.80, "type": "moon_shimmer", "gain": 0.68, "pan": 0.0 },
+    { "id": "sfx_18", "time": 24.75, "type": "camera_flash", "gain": 0.72, "pan": 0.25 },
+    { "id": "sfx_19", "time": 26.00, "type": "outro_sting", "gain": 0.85, "pan": 0.0 }
+  ]
+}

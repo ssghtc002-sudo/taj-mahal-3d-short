@@ -1,0 +1,20 @@
+{
+  "name": "taj-mahal-3d-short",
+  "version": "1.0.0",
+  "description": "How They Built The Taj Mahal — 30s 9:16 3D Animated YouTube Short",
+  "main": "src/main.js",
+  "scripts": {
+    "preview": "node render/server.mjs 4176",
+    "verify": "node verify_scene.mjs",
+    "qa": "node render/render_frames.mjs --qa-only",
+    "render": "node render/render_frames.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "playwright-core": "^1.65.1",
+    "three": "^0.187.0"
+  }
+}
